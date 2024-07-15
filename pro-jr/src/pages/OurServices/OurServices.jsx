@@ -1,7 +1,5 @@
 import styles from './OurServices.module.css'
 
-import { Element } from 'react-scroll'
-
 const OurServices = () => {
   return (
     <div id="services" className={styles.services}>
