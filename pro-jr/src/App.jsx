@@ -12,12 +12,12 @@ function App() {
 
   return (
     <>
-        <Home/>
-        <About/>
+        {/*<Home/>*/}
+        {/*<About/>*/}
         <OurServices/>
-        <Impact/>
-        <OurClients/>
-        <Contact/>
+        {/*<Impact/>*/}
+        {/*<OurClients/>*/}
+        {/*<Contact/>*/}
     </>
   )
 }
