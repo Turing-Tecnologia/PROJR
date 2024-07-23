@@ -5,7 +5,7 @@ import ServicesButton from '../../components/ServicesButton/ServicesButton'
 const OurServices = () => {
   return (
     <div id="services" className={styles.services}>
-        <div>
+        <h3>Nossos Serviços</h3>
             <ServicesButton
                 ServicesTitle={'MAPEAMENTO DE PROCESSOS'}
                 ServicesContent=
@@ -101,15 +101,15 @@ const OurServices = () => {
                     'Metodologia de análise de custo-benefício como o critério definitivo para determinar a viabilidade financeira de projetos ou negócios. Apurando meticulosamente os custos e benefícios, permitindo que você tome decisões informadas e seguras.'
                 }
             />
-            
-            <ServicesButton
-                ServicesTitle={'GESTÃO DE REDES SOCIAIS'}
-                ServicesContent=
-                {
-                    'Oferecemos soluções personalizadas para impulsionar a presença digital da sua empresa, desde consultorias simples até gestão completa, incluindo estratégias de postagem, criação de conteúdo e design visual exclusivo para aumentar o engajamento e a relevância da sua marca online.'
-                }
-            />      
-        </div>
+          <div id='service' className={styles.service}>
+              <ServicesButton
+                    ServicesTitle={'GESTÃO DE REDES SOCIAIS'}
+                    ServicesContent=
+                    {
+                        'Oferecemos soluções personalizadas para impulsionar a presença digital da sua empresa, desde consultorias simples até gestão completa, incluindo estratégias de postagem, criação de conteúdo e design visual exclusivo para aumentar o engajamento e a relevância da sua marca online.'
+                    }
+              />
+          </div>
     </div>
   )
 }
