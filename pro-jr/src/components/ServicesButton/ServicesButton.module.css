@@ -1,0 +1,36 @@
+.containerServiceBtn {
+  padding: 2rem;
+  margin: 2rem;
+  background: #C7C8D7;
+}
+
+/*.containerServiceBtn > div {
+
+}*/
+
+.ServiceBtnSecon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ServiceBtnImg {
+  width: 3rem;
+}
+
+.ServiceBtnTitle {
+  font-family: 'Abril Fatface';
+  color: #00026A;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.ServiceButtonContent {
+  font-weight: 400;
+  font-size: 20px;
+  color: #00026A;
+  font-weight: 400;
+  text-align: justify;
+
+}
