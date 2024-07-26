@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import styles from "./Logo.module.css";
 
 const Logo = () => {
   return (
-    <img src="" alt="" />
-  )
-}
+    <div className={styles.logo}>
+      <img src="src/components/navBarImage/logo_projr.png" alt="Logo" />
+    </div>
+  );
+};
 
-export default Logo
+export default Logo;

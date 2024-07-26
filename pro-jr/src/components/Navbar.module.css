@@ -1,0 +1,17 @@
+.menu ul {
+  display: flex;
+  margin-right: 50px;
+  cursor: pointer;
+}
+.menu li {
+  margin-left: 20px;
+  list-style: none;
+  font-size: 18px;
+  color: #fff;
+}
+
+@media (max-width: 600px) {
+  .menu {
+    display: none;
+  }
+}
