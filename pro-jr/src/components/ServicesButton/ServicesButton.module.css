@@ -1,36 +1,69 @@
-.containerServiceBtn {
-  padding: 2rem;
-  margin: 2rem;
+.serviceContainer {
   background: #C7C8D7;
+  
+  border-radius: 5px;
+  margin: 48px;
+  padding: 28px;
+  
+  overflow: hidden;
+  transition: all 0.5 ease;
 }
 
 /*.containerServiceBtn > div {
-
+  
 }*/
 
-.ServiceBtnSecon {
+.serviceHeader {
+
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 10px;
+  cursor: pointer;
+
 }
 
-.ServiceBtnImg {
-  width: 3rem;
+.serviceImage {
+
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  transition: transform 0.3s ease, filter 1s ease;
 }
 
-.ServiceBtnTitle {
+.serviceTitle {
+
   font-family: 'Abril Fatface';
   color: #00026A;
   font-size: 24px;
   font-weight: 600;
   text-align: center;
+  margin: 0;
+  transition: color 0.5s ease;
 }
 
-.ServiceButtonContent {
+.serviceContent {
+  color: #00026A;
+
+  max-height: 0;
+
   font-weight: 400;
   font-size: 20px;
-  color: #00026A;
   font-weight: 400;
+  
   text-align: justify;
 
+  overflow: hidden;
+  opacity: 0;
+  transition: max-height 1s ease, opacity 1s ease, padding 1s ease;
+}
+
+.serviceShow {
+  max-height: 200px;
+  opacity: 1;
+  padding: 10px;
+}
+
+.serviceRotate {
+  transform: rotate(360deg);
 }

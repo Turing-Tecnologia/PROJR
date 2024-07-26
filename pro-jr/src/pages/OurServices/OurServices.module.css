@@ -4,15 +4,17 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
+
 }
 
 .services > div:last-child {
     grid-column: 1 / 1;
     justify-self: center;
-    border: 1px solid red;
+
 }
 
 .services > h3 {
+
     grid-column: 1 / -1;
     text-align: center;
     color: #00026A;
