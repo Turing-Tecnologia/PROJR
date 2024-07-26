@@ -12,7 +12,7 @@ const ServicesButton = ({ ServiceSrc, ServiceTitle, ServiceContent }) => {
   const handleMouseLeave = () => {
     setIsHovered(false);
   };
-  
+
   return (
     <div className={styles.serviceContainer}>
 
@@ -20,9 +20,9 @@ const ServicesButton = ({ ServiceSrc, ServiceTitle, ServiceContent }) => {
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
       >
-          <img className={`${styles.serviceImage} ${isHovered ? styles.serviceRotate : ''}`} src={ServiceSrc} alt="Star 10" />
+        <img className={`${styles.serviceImage} ${isHovered ? styles.serviceRotate : ''}`} src={ServiceSrc} alt="Star 10" />
 
-          <h3 className={styles.serviceTitle}>{ ServiceTitle }</h3>
+        <h3 className={styles.serviceTitle}>{ ServiceTitle }</h3>
       </div>
 
       <div className={`${styles.serviceContent} ${isHovered ? styles.serviceShow : ''}`}>
