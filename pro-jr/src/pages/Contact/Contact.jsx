@@ -1,7 +1,9 @@
 import styles from './Contact.module.css';
 import classNames from 'classnames';
+import LocationMap from '../../components/LocationMap';
 
 const Contact = () => {
+
   return (
     <div className={classNames('view', styles.container)}>
         <div className={classNames(styles.contato, styles.contatoContainer)}>
@@ -17,9 +19,7 @@ const Contact = () => {
             <p>Rua: Gamaliel Martins Bezerra, 587, bairro Alto da Alegria – Angicos/RN.</p>
             <p>CEP: 59.515-000 UFERSA – Bloco de Professores II, sala 36</p>
         </div>
-        <div className={classNames(styles.map)}>
-            <p>localização</p>
-        </div>
+        <LocationMap/>
     </div>
   )
 }
