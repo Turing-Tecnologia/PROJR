@@ -1,5 +1,6 @@
 .OurServicesBase {
   background: #FFFFFF;
+  margin: auto;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -22,6 +23,7 @@
   align-items: center;
 }
 
-.OurServicesBase > img {
+.OurServicesBaseImg > img {
+  width: 10rem;
   margin: 1rem;
 }
