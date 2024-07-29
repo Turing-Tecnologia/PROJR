@@ -1,6 +1,6 @@
 import React from 'react'
-import projrLogo from '../About/projr-logo.png'
-import stylesAbout from '../About/img/About.module.css'
+import projrLogo from '../About/img/proLogo.png'
+import stylesAbout from '../About/About.module.css'
 
 const About = () => {
   return (
