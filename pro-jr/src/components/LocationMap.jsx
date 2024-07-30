@@ -1,7 +1,8 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
+import './LocationMap.module.css'; 
 
 // Corrige o problema do ícone padrão não aparecendo
 delete L.Icon.Default.prototype._getIconUrl;
@@ -13,15 +14,22 @@ L.Icon.Default.mergeOptions({
 });
 
 const LocationMap = () => {
+  const latitude = -5.654222;
+  const longitude = -36.615306;
+  const position = [latitude, longitude];
+
+  const googleMapsUrl = `https://www.google.com/maps/search/?api=1&query=${latitude},${longitude}`;
+
   return (
-    <MapContainer center={[51.505, -0.09]} zoom={13} style={{ height: '400px', width: '100%' }}>
+    <MapContainer center={position} zoom={18} style={{ flex: '0 0 40%' }}>
       <TileLayer
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-        attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
       />
-      <Marker position={[51.505, -0.09]}>
+      <Marker position={position}>
         <Popup>
-          A pretty CSS3 popup. <br /> Easily customizable.
+          <a href={googleMapsUrl} target="_blank" rel="noopener noreferrer">
+            Bloco de professores II
+          </a>
         </Popup>
       </Marker>
     </MapContainer>
