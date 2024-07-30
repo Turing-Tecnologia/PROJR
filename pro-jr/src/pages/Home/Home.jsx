@@ -1,7 +1,7 @@
 import Logo from "../../components/Logo.jsx";
-import Navbar from "../../components/Navbar.jsx";
+import Navbar from "../../components/Navbar.jsx"
 
-import "./Home.module.css";
+import "/home/gabriel-rocha/PROJR/pro-jr/src/pages/Home/Home.module.css"
 
 const Home = () => {
   return (
