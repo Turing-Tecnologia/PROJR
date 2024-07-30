@@ -1,10 +1,12 @@
 import React from "react";
 import { Link } from "react-scroll";
-import styles from './Navbar.module.css'
+import styles from './Navbar.module.css';
+import Logo from "./Logo";
 
 const Navbar = () => {
   return (
     <nav className={styles.menu}>
+      <Logo />
       <ul>
         <li>
           <Link to="home" smooth={true} duration={500}>

@@ -1,16 +1,14 @@
 import Logo from "../../components/Logo.jsx";
-import Navbar from "../../components/Navbar.jsx"
-
-import "/home/gabriel-rocha/PROJR/pro-jr/src/pages/Home/Home.module.css"
+import Navbar from "../../components/Navbar.jsx";
+import style from "../Home/Home.module.css";
 
 const Home = () => {
   return (
-    <div id="home" className="view">
+    <div id="home" className={style.home}>
       <div className="header">
-        <Logo />
         <Navbar />
       </div>
-      <div className="title">
+      <div className={style.title}>
         <h1>
           Evoluindo processos,
           <br /> impactando resultados!
@@ -27,14 +25,15 @@ const Home = () => {
         </button>
       </div>
 
-      <div className="info">
+      <div className={style.info}>
         <h2>ProJúnior</h2>
         <div>
-          <button className="btnLearnMore">Saiba mais</button>
-          <button className="btnContact">Contato</button>
+          <button className={style.btnLearnMore}>Saiba mais</button>
+          <button className={style.btnContact}>Contato</button>
         </div>
       </div>
-      <div className="imgsProjr">
+
+      <div className={style.imgsProjr}>
         <img
           src="src/pages/Home/HomeImages/PRO_PNJ-removebg-preview (2) 1.png"
           alt=""

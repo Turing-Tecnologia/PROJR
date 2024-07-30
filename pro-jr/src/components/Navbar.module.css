@@ -1,13 +1,24 @@
-.menu ul {
+.menu {
+  /* border: 1px solid red; */
   display: flex;
-  margin-right: 50px;
-  cursor: pointer;
+  /* margin-top: 24px; */
+  /* justify-content: space-between; */
+  margin: 0 55px 0 55px;
 }
+
+.menu ul {
+  width: 48rem;
+  display: flex;
+  /* margin-right: 50px; */
+  cursor: pointer;
+  align-items: center;
+}
+
 .menu li {
   margin-left: 20px;
   list-style: none;
   font-size: 18px;
-  color: #fff;
+  color: #FFF;
 }
 
 @media (max-width: 600px) {

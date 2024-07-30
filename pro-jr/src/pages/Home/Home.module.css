@@ -1,4 +1,4 @@
-#home {
+.home {
   background-image: url("src/pages/Home/HomeImages/CAPA DE FRENTE SITE (2).png");
   background-size: cover;
   background-position: center;
@@ -8,19 +8,23 @@
   align-items: center;
   justify-content: center;
 }
-.view h1 {
-  margin: 70px;
-  margin-top: 10px;
+
+.title > h1 {
+  /* border: 1px solid red; */
+  margin: 24px 55px 0 55px;
   font-size: 70px;
   color: #fff;
 }
-.view h2 {
+
+.info > h2 {
+  /* border: 1px solid red; */
   margin-left: 69px;
   font-size: 30px;
   font-weight: 100;
   margin-top: -35px;
   color: #fff;
 }
+
 .btnLearnMore {
   background-color: #fe4e00;
   border-radius: 25px;
@@ -35,6 +39,7 @@
   font-weight: 900;
   transition: background-color 0.5s;
 }
+
 .btnLearnMore:hover {
   background-color: rgba(254, 78, 0, 0.5);
 }
@@ -52,6 +57,7 @@
   font-weight: 900;
   transition: 0.5s;
 }
+
 .btnDiagn:hover {
   background-color: rgba(254, 78, 0, 0.5);
 }
@@ -77,6 +83,7 @@
   font-weight: 900;
   transition: background-color 0.5s;
 }
+
 .btnContact:hover {
   background-color: #fff;
   color: #000;
