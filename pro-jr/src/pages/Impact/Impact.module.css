@@ -28,7 +28,7 @@ body {
 .section {
     margin-bottom: 50px;
 }
-/* @media screen and (max-width: 750px) {
+@media screen and (max-width: 750px) {
     .impact {
         display: grid;
         grid-template-columns: repeat(1, 3fr);
@@ -71,7 +71,7 @@ body {
         top: -5%;
         right: 10%;
     }
-} */
+}
 .impactBox {
     background-color: #ffffff;
     color: #00026a;
