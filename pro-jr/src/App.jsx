@@ -6,7 +6,7 @@ import Home from './pages/Home/Home';
 import Impact from './pages/Impact/Impact';
 import OurClients from './pages/OurClients/OurClients';
 import OurServices from './pages/OurServices/OurServices';
-
+import Whatsapp from './pages/Whatsapp/Whatsapp';
 
 function App() {
 
@@ -18,6 +18,7 @@ function App() {
         <Impact/>
         <OurClients/>
         <Contact/>
+        <Whatsapp />
     </>
   )
 }

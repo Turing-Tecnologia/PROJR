@@ -1,0 +1,51 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.a img {
+    width: 40px;
+    height: 40px;
+    pointer-events: none;
+}
+.p {
+    font-size: 20px;
+    padding-right: 10px;
+    padding-left: 15px;
+}
+@keyframes timeOut {
+    0% {
+        display: none;
+    }
+}
+.a {
+    display: inline-flex;
+    color: white;
+    height: 30px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.301);
+    text-decoration: none;
+    border-radius: 32px;
+    padding-left: 15px;
+    padding: 5px 0px;
+    align-items: center;
+    position: fixed;
+    transition: 0.7s ease;
+    bottom: 5%;
+    right: 6%;
+    animation: timeOut 5s step-end;
+
+    & .p {
+       display: none;
+    }
+}
+.a:hover {
+    display: inline-flex;
+    background-color: green;
+    align-items: center;
+    position: fixed;
+    bottom: 5%;
+    right: 6%;
+    
+    & .p {
+        display: block;
+    }
+}
