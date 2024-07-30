@@ -9,7 +9,6 @@
     src: url('./fonts/AbrilFatface-Regular.ttf');
 }
 body {
-    background-color: #eaeaea;
     font-family: 'Abril Fatface', serif;
 }
 .h1 {
@@ -21,14 +20,31 @@ body {
 }
 .h2 {
     font-size: 60px;
-    font-weight: 900;
     margin-bottom: -10px;
     font-family: 'Tan Nimbus', serif;
+    display: block;
+    margin: auto;
+}
+.section_up {
+    background-color: #eaeaea;
+    display: block;
+    padding-top: 30vh;
+    padding-bottom: 30vh;
+}
+.img {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: -3%;
+    right: 10%;
 }
 .section {
-    margin-bottom: 50px;
+    position: relative;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, 0%);
 }
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 899px) {
     .impact {
         display: grid;
         grid-template-columns: repeat(1, 3fr);
@@ -36,40 +52,14 @@ body {
         margin: auto;
         width: 80%;
     }
-    .section {
-        position: relative;
-        top: 20%;
-        left: 50%;
-        transform: translate(-50%, 0%);
-        }
-        .img {
-            width: 70px;
-            height: 70px;
-            position: absolute;
-            top: -5%;
-            right: 10%;
-        }
 }
-@media screen and (min-width: 751px) {
+@media screen and (min-width: 900px) {
     .impact {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(3, 3fr);
         gap: 25px;
         margin: auto;
         width: 80%;
-    }
-    .section {
-        position: relative;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, 50%);
-    }
-    .img {
-        width: 70px;
-        height: 70px;
-        position: absolute;
-        top: -5%;
-        right: 10%;
     }
 }
 .impactBox {
