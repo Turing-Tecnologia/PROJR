@@ -6,7 +6,7 @@ import Logo from "./Logo";
 const Navbar = () => {
   return (
     <nav className={styles.menu}>
-      <Logo />
+      <Logo/>
       <ul>
         <li>
           <Link to="home" smooth={true} duration={500}>

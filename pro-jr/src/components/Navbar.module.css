@@ -18,11 +18,26 @@
   margin-left: 20px;
   list-style: none;
   font-size: 18px;
-  color: #FFF;
+  color: #fff;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 428px) {
+  .menu li {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 390px) {
+  .menu li {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 360px) {
+  .menu li {
+    font-size: 13px;
+  }
   .menu {
-    display: none;
+    margin: 0;
   }
 }

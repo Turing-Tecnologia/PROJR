@@ -14,8 +14,10 @@ const Home = () => {
           <br /> impactando resultados!
         </h1>
       </div>
-      <button className="btnDiagn">Faça um diagnóstico gratuito!</button>
-      <div className="imgAcess">
+
+      <button className={style.btnDiagn}>Faça um diagnóstico gratuito!</button>
+
+      <div className={style.imgAcess}>
         <button>
           {" "}
           <img
