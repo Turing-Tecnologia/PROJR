@@ -37,22 +37,24 @@
 
 .serviceContent {
   color: #00026A;
-  max-height: 0;
+  /* max-height: 0; */
+
+  font-family: 'Abril Fatface';
   font-weight: 400;
   font-size: 20px;
   font-weight: 400;
   text-align: justify;
 
-  overflow: hidden;
+  /* overflow: hidden;
   opacity: 0;
-  transition: max-height 1s ease, opacity 1s ease, padding 1s ease;
+  transition: max-height 1s ease, opacity 1s ease, padding 1s ease; */
 }
 
-.serviceShow {
+/* .serviceShow {
   max-height: 200px;
   opacity: 1;
   padding: 10px;
-}
+} */
 
 .serviceRotate {
   transform: rotate(360deg);

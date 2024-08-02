@@ -4,6 +4,7 @@ import styles from '../ServicesButton/ServicesButton.module.css'
 const ServicesButton = ({ ServiceSrc, ServiceTitle, ServiceContent }) => {
 
   const [isHovered, setIsHovered] = useState(false)
+  // const [isContent, setContent] = useState('')
 
   const handleMouseEnter = () => {
     setIsHovered(true);

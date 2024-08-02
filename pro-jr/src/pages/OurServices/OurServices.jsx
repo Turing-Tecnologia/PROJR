@@ -1,5 +1,6 @@
 import styles from './OurServices.module.css'
 import ServicesButton from '../../components/ServicesButton/ServicesButton'
+import ServicesButtonCompost from '../../components/ServicesButtonCompost/ServicesButtonCompost'
 import StarLogo from '../../assets/ProJr_ServicesStar.png'
 import { useState } from 'react'
 
