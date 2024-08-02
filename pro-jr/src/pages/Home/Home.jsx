@@ -1,6 +1,6 @@
-import Logo from "../../components/Logo.jsx";
 import Navbar from "../../components/Navbar.jsx";
 import style from "../Home/Home.module.css";
+import { Link } from "react-scroll";
 
 const Home = () => {
   return (
@@ -30,8 +30,16 @@ const Home = () => {
       <div className={style.info}>
         <h2>ProJúnior</h2>
         <div>
-          <button className={style.btnLearnMore}>Saiba mais</button>
-          <button className={style.btnContact}>Contato</button>
+          <Link to="about" smooth={true} duration={500}>
+              <button className={style.btnLearnMore}>
+                Saiba mais
+              </button>
+          </Link>
+          <Link to="contact" smooth={true} duration={500}>
+            <button className={style.btnContact}>
+              Contato
+            </button>
+          </Link>
         </div>
       </div>
 
