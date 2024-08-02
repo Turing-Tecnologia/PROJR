@@ -1,17 +1,9 @@
 import styles from './OurServices.module.css'
-import ServicesButton from '../../components/ServicesButton/ServicesButton'
-import ServicesButtonCompost from '../../components/ServicesButtonCompost/ServicesButtonCompost'
+import ServicesButton from './ServicesButton/ServicesButton'
 import StarLogo from '../../assets/ProJr_ServicesStar.png'
-import { useState } from 'react'
+
 
 const OurServices = () => {
-
-    // const [activeIndex, setActiveIndex] = useState(null)
-  
-    // const handleToggle = (index) => {
-    //     setActiveIndex(activeIndex === index ? null : index)
-    // }
-
     return (
         <div id="services" className={styles.services}>
             <h3>Nossos Serviços</h3>
