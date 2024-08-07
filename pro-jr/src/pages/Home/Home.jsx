@@ -1,4 +1,3 @@
-import Navbar from "../../components/Navbar.jsx";
 import style from "../Home/Home.module.css";
 import { Link } from "react-scroll";
 
@@ -6,7 +5,6 @@ const Home = () => {
   return (
     <div id="home" className={style.home}>
       <div className="header">
-        <Navbar />
       </div>
       <div className={style.title}>
         <h1>
@@ -15,11 +13,8 @@ const Home = () => {
         </h1>
       </div>
 
-      <button className={style.btnDiagn}>Faça um diagnóstico gratuito!</button>
-
       <div className={style.imgAcess}>
         <button>
-          {" "}
           <img
             src="src/pages/Home/HomeImages/ACESSIBILIDADE → Button.png"
             alt=""
