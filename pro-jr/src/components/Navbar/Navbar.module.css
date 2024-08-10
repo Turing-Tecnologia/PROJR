@@ -7,6 +7,7 @@
   background-color: #00026a;
   height: 10vh;
   overflow: hidden;
+  z-index: 1000;
 }
 
 .menu ul {
@@ -14,12 +15,12 @@
   align-items: center;
   cursor: pointer;
   list-style: none;
-  padding-left: 10%;
+  padding-left: 15%;
 }
 
 .menu li {
   margin-left: 8%;
-  font-size: 18px;
+  font-size: 14px;
   color: #fff;
   white-space: nowrap;
 }
@@ -36,32 +37,16 @@
 .btnDiagn {
   background-color: #fe4e00;
   border-radius: 50px;
-  padding: 12px;
+  padding: 11px;
   border: none;
   color: #fff;
   cursor: pointer;
   font-weight: 900;
   margin-left: auto; 
   margin-right: 3%;
+  transition: background-color 0.4s;
 }
 
-@media (max-width: 428px) {
-  .menu li {
-    font-size: 15px;
-  }
-}
-
-@media (max-width: 390px) {
-  .menu li {
-    font-size: 11px;
-  }
-}
-
-@media (max-width: 360px) {
-  .menu li {
-    font-size: 13px;
-  }
-  .menu {
-    margin: 0;
-  }
-}
+.btnDiagn:hover {
+  background-color: #fe4e0099;
+} 

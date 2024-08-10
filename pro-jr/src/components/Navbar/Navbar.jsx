@@ -7,11 +7,13 @@ const Navbar = () => {
     <nav className={styles.menu}>
       <ul>
         <li>
-          <img 
-            src="src/components/Navbar/logo_projr.png" 
-            alt="Logo"
-            className={styles.logo}
-          />
+          <Link to="home" smooth={true} duration={500} offset={-62}>
+            <img 
+              src="src/components/Navbar/logo_projr.png" 
+              alt="Logo"
+              className={styles.logo}
+            />
+          </Link>
         </li>
         <li>
           <Link to="home" smooth={true} duration={500} offset={-62}>

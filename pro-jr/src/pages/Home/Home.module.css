@@ -7,173 +7,77 @@
   width: 100%;
   align-items: center;
   justify-content: center;
-  font-family: "Montserrat";
+  position: absolute;
 }
 
-.title > h1 {
-  margin: 24px 55px 0 55px;
-  font-size: 60px;
-  color: #fff;
-  margin-bottom: 50px;
+.slogan {
+  color: #FFFFFF;
+  padding: 1%;
+  padding-left: 13%;
+  box-sizing: border-box;
 }
 
-.info > h2 {
-  margin-left: 69px;
+.slogan h1 {
+  font-size: 58px;
+}
+
+.slogan h2 {
   font-size: 30px;
-  font-weight: 100;
-  margin-top: -35px;
-  color: #fff;
+  font-weight: 400;
+}
+
+.accessibility {
+  position: absolute;
+  right: 0;
+  width: 55px;
+  cursor: pointer;
 }
 
 .btnLearnMore {
-  background-color: #fe4e00;
+  background-color: #FE4E00;
   border-radius: 25px;
-  padding: 10px;
+  padding: 0.8%;
   color: #fff;
   border: none;
-  width: 90px;
-  height: 45px;
-  margin-right: 15px;
-  margin-left: 60px;
+  margin-right: 20px;
   cursor: pointer;
   font-weight: 900;
-  transition: background-color 0.5s;
+  transition: background-color 0.4s;
 }
 
 .btnLearnMore:hover {
-  background-color: rgba(254, 78, 0, 0.5);
-}
-
-.btnDiagn:hover {
-  background-color: rgba(254, 78, 0, 0.5);
-}
-
-.imgAcess button {
-  top: 80px;
-  right: 10px;
-  border: none;
-  cursor: pointer;
-  background: transparent;
+  background-color: #FE4E0099;
 }
 
 .btnContact {
-  background-color: #eaea;
+  background-color: #EAEAEA80;
   border: none;
-  padding: 15px;
+  padding: 0.8%;
   border-radius: 25px;
-  width: 90px;
-  height: 45px;
   cursor: pointer;
   color: #fff;
   font-weight: 900;
-  transition: background-color 0.5s;
+  transition: background-color 0.4s;
 }
 
 .btnContact:hover {
-  background-color: #fff;
-  color: #000;
+  background-color: #EAEAEA60;
 }
 
 .imgsProjr {
+  position: absolute;
+  right: 0;
+  top: 35vh;
   display: flex;
-  justify-content: flex-end;
   align-items: center;
-  height: 100vh;
-  padding-right: 10px;
-  margin-top: -300px;
 }
 
 .imgsProjr img {
   width: 350px;
 }
 
-.header {
-  display: flex;
-  align-items: center;
+.projrLogo {
+  margin-top: 7%;
 }
 
-@media (max-width: 690px) {
-  .btnDiagn {
-    top: 85px;
-  }
 
-  .imgAcess button {
-    top: 125px;
-  }
-
-  .title h1 {
-    font-size: 65px;
-  }
-  .btnContact {
-    background-color: #00026a;
-    transition: background-color 0.5s;
-  }
-
-  .btnContact:hover {
-    background-color: #eaea;
-  }
-
-  .imgsProjr img {
-    width: 300px;
-  }
-}
-
-/*Responsividade para diferentes dimensões de tela*/
-
-@media (max-width: 490px) {
-  .btnDiagn {
-    top: 80px;
-  }
-
-  .imgAcess button {
-    top: 120px;
-  }
-
-  .title h1 {
-    font-size: 35px;
-    margin-top: 60px;
-  }
-
-  .info > h2 {
-    font-size: 25px;
-  }
-
-  .btnContact {
-    background-color: #00026a;
-    transition: background-color 0.5s;
-  }
-
-  .btnContact:hover {
-    background-color: #eaea;
-  }
-
-  .imgsProjr img {
-    width: 200px;
-  }
-}
-
-@media (max-width: 390px) {
-  .title h1 {
-    margin-left: 30px;
-    font-size: 35px;
-    margin-bottom: 47px;
-  }
-
-  .info h2 {
-    margin-left: 30px;
-  }
-  .btnLearnMore {
-    margin-left: 30px;
-  }
-
-  .imgsProjr img {
-    margin-top: 150px;
-    width: 180px;
-  }
-}
-
-@media (max-width: 360px) {
-  .imgsProjr {
-    width: 370px;
-  }
-}
