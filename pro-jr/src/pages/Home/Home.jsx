@@ -1,7 +1,10 @@
 import style from "../Home/Home.module.css";
 import { Link } from "react-scroll";
+import { useOffset } from '../../context/OffsetContext';
 
 const Home = () => {
+  const { offset } = useOffset();
+
   return (
     <div id="home" className={`${style.home} view`}>
           <img
@@ -18,12 +21,12 @@ const Home = () => {
         <h2>ProJúnior</h2>
 
         <div className={style.buttons}>
-          <Link to="about" smooth={true} duration={500} offset={-62}>
+          <Link to="about" smooth={true} duration={500} offset={offset}>
               <button className={style.btnLearnMore}>
                 Saiba mais
               </button>
           </Link>
-          <Link to="contact" smooth={true} duration={500} offset={-62}>
+          <Link to="contact" smooth={true} duration={500} offset={offset}>
             <button className={style.btnContact}>
               Contato
             </button>

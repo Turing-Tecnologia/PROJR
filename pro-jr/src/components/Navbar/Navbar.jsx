@@ -1,9 +1,10 @@
 import React from "react";
 import { Link } from "react-scroll";
 import styles from './Navbar.module.css';
+import { useOffset } from '../../context/OffsetContext';
 
 const Navbar = () => {
-  const offset = -8 * window.innerHeight / 100;
+  const { offset } = useOffset();
 
   return (
     <nav className={styles.menu}>
