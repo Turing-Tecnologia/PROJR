@@ -1,5 +1,5 @@
 .home {
-  background-image: url("src/pages/Home/HomeImages/CAPA DE FRENTE SITE (2).png");
+  background-image: url("src/assets/CAPA DE FRENTE SITE (2).png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -11,7 +11,7 @@
 
 .slogan {
   color: #FFFFFF;
-  padding: 1%;
+  padding-top: 15vh;
   padding-left: 13%;
   box-sizing: border-box;
 }

@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <div id="home" className={`${style.home} view`}>
           <img
-            src="src/pages/Home/HomeImages/ACESSIBILIDADE → Button.png"
+            src="src/assets/ACESSIBILIDADE → Button.png"
             alt="Botão de acessibilidade"
             className={style.accessibility}
           />
@@ -36,12 +36,12 @@ const Home = () => {
 
       <div className={style.imgsProjr}>
         <img
-          src="src/pages/Home/HomeImages/PRO_PNJ-removebg-preview (2) 1.png"
+          src="src/assets/PRO_PNJ-removebg-preview (2) 1.png"
           alt="Logo da PROJR"
           className={style.projrLogo}
         />
         <img
-          src="src/pages/Home/HomeImages/LOGO_PRO_JR_PNG-removebg-preview 1.png"
+          src="src/assets/LOGO_PRO_JR_PNG-removebg-preview 1.png"
           alt="Símbolo de engrenagem com uma lâmpada no centro"
         />
       </div>

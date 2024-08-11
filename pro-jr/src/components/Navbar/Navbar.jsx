@@ -12,7 +12,7 @@ const Navbar = () => {
         <li>
           <Link to="home" smooth={true} duration={500} offset={offset}>
             <img 
-              src="src/components/Navbar/logo_projr.png" 
+              src="./src/assets/logo_projr.png" 
               alt="Logo"
               className={styles.logo}
             />
