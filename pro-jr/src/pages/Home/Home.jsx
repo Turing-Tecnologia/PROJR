@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 
 const Home = () => {
   return (
-    <div id="home" className={style.home}>
+    <div id="home" className={`${style.home} view`}>
           <img
             src="src/pages/Home/HomeImages/ACESSIBILIDADE → Button.png"
             alt="Botão de acessibilidade"
