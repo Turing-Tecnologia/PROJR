@@ -3,8 +3,7 @@ import { Link } from "react-scroll";
 import styles from './Navbar.module.css';
 
 const Navbar = () => {
-  // Define o offset em 8vh, convertendo para pixels ou uma unidade que o react-scroll aceite
-  const offset = -8 * window.innerHeight / 100; // -8vh em pixels
+  const offset = -8 * window.innerHeight / 100;
 
   return (
     <nav className={styles.menu}>
