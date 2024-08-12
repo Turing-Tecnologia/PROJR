@@ -1,22 +1,42 @@
 .services {
-    padding: 20px;
+    background-color: #EAEAEAEA;
+    position: relative;
+    padding-top: 6vh;
+}
+
+.services > h2 {
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 30px;
+    color: #00026A;
 }
 
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 16px;
+    height: 92vh;
+    gap: 16px; 
+    align-items: center; 
+    justify-items: center; 
+    position: relative;
 }
 
-.container > div {
+.container > img {
+    width: 127px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.lastContainer {
+    height: 36vh;
+    grid-template-columns: 1fr;
     display: flex;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
 }
 
-.container img {
-    margin-right: 16px; 
-}
 
-.container h2, .container p {
-    margin: 0; 
-}
