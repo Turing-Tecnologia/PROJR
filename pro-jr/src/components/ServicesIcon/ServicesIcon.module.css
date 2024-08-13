@@ -1,36 +1,66 @@
-.icon {
+.icon-wrapper {
+    position: relative;
+    width: 541px;
+    height: 100px;
+    overflow: visible;
+  }
+  
+  .icon {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 541px;
-    height: 200px;
+    width: 100%;
+    height: 100%;
     box-sizing: border-box;
     padding: 16px;
     background-color: #C7C8D7;
     color: #00026A;
-    position: relative;
-    overflow: hidden;
-}
-
-.icon > div {
+    position: absolute;
+    border-radius: 20px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+    transition: height 0.5s ease, transform 0.3s ease;
+  }
+  
+  .icon > div {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
-}
-
-.icon h2 {
+  }
+  
+  .icon h2 {
     font-size: 30px;
     text-align: center;
-    margin: 0;
-}
-
-.icon p {
+    margin-top: -5px;
+  }
+  
+  .icon p {
     text-align: justify;
-    margin: 0;
-}
-
-.star {
+    margin-top: -1%;
+    margin-left: 7%;
+    margin-right: 7%;
+    opacity: 0;
+    transition: opacity 0.1s ease;
+  }
+  
+  .star {
     width: 60px;
     position: absolute;
-}
+    top: -8%;
+    transform: translate(-76%, 0);
+    transition: transform 0.5s ease;
+  }
+  
+  .icon:hover .star {
+    transform: translate(-76%, 0) rotate(180deg);
+  }
+  
+  .icon-wrapper:hover .icon {
+    height: 200px;
+  }
+  
+  .icon-wrapper:hover .icon p {
+    opacity: 1;
+    transition: opacity 0.7s ease;
+  }
+  

@@ -1,20 +1,16 @@
 .services {
     background-color: #EAEAEAEA;
     position: relative;
-    padding-top: 6vh;
-}
-
-.services > h2 {
+    padding-top: 2vh;
+  }
+  
+  .services > h2 {
     text-align: center;
-    margin: 0;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
     font-size: 30px;
     color: #00026A;
-}
-
-.container {
+  }
+  
+  .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     height: 92vh;
@@ -22,21 +18,26 @@
     align-items: center; 
     justify-items: center; 
     position: relative;
-}
-
-.container > img {
+  }
+  
+  .container > img {
     width: 127px;
     position: absolute;
     right: 0;
     top: 0;
-}
-
-.lastContainer {
-    height: 36vh;
+  }
+  
+  .lastContainer {
+    height: 56vh;
     grid-template-columns: 1fr;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-
+  }
+  
+  @media (max-width: 1366px) {
+    .container {
+      gap: 0;
+    }
+  }
+  

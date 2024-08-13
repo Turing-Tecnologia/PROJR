@@ -11,8 +11,8 @@
 
 .slogan {
   color: #FFFFFF;
-  padding-top: 15vh;
-  padding-left: 13%;
+  padding-top: 10vh;
+  padding-left: 8%;
   box-sizing: border-box;
 }
 
@@ -65,8 +65,8 @@
 
 .imgsProjr {
   position: absolute;
-  right: 15vh;
-  top: 50vh;
+  right: 13vh;
+  top: 48vh;
   display: flex;
   align-items: center;
 }
@@ -79,4 +79,12 @@
   margin-top: 7%;
 }
 
+@media (max-width: 1366px) {
+  .slogan h1 {
+    font-size: 50px;
+  }
 
+  .imgsProjr img {
+    width: 310px;
+  }
+}

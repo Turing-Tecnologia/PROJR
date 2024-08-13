@@ -3,7 +3,7 @@ import React, { createContext, useState, useContext } from 'react';
 const OffsetContext = createContext();
 
 export const OffsetProvider = ({ children }) => {
-  const [offset, setOffset] = useState(-8 * window.innerHeight / 100);
+  const [offset, setOffset] = useState(-8.5 * window.innerHeight / 100);
 
   return (
     <OffsetContext.Provider value={{ offset, setOffset }}>
