@@ -45,16 +45,14 @@
   font-weight: 400;
   text-align: justify;
 
-  /* overflow: hidden;
+  /* overflow: hidden; */
   opacity: 0;
-  transition: max-height 1s ease, opacity 1s ease, padding 1s ease; */
+  transition: max-height 1s ease, opacity 1s ease, padding 1s ease;
 }
 
-/* .serviceShow {
-  max-height: 200px;
+.serviceShow {
   opacity: 1;
-  padding: 10px;
-} */
+}
 
 .serviceRotate {
   transform: rotate(360deg);
