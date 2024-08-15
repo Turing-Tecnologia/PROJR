@@ -7,15 +7,14 @@
   
   .icon {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    align-items: center;
     width: 100%;
     height: 100%;
     box-sizing: border-box;
     padding: 16px;
     background-color: #C7C8D7;
     color: #00026A;
-    position: absolute;
+    position: relative;
     border-radius: 20px;
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
     transition: height 0.5s ease, transform 0.3s ease;
@@ -29,18 +28,40 @@
   }
   
   .icon h2 {
-    font-size: 30px;
+    font-size: 26px;
     text-align: center;
-    margin-top: -5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    white-space: nowrap;
+  }
+
+  .icon h2.large-title {
+    font-size: 20px;
+    white-space: normal;
   }
   
   .icon p {
     text-align: justify;
-    margin-top: -1%;
     margin-left: 7%;
     margin-right: 7%;
     opacity: 0;
     transition: opacity 0.1s ease;
+  }
+
+  .icon p.short-description {
+    margin-top: 23%;
+  }
+
+  .icon p.medium-description {
+    margin-top: 15.5%;
+  }
+
+  .icon p.long-description {
+    font-size: 15px;
+    margin-top: 11.5%;
   }
   
   .star {
