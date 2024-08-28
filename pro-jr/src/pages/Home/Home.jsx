@@ -1,24 +1,52 @@
-import Navbar from '../../components/Navbar'
-
-import './Home.moduele.css'
+import style from "../Home/Home.module.css";
+import { Link } from "react-scroll";
+import { useOffset } from '../../context/OffsetContext';
 
 const Home = () => {
-  return (
-    <div id="home" className='view'>
-        <Navbar/>
-        <div>
-            <h1>Evoluindo processos, impactando resultados!</h1>
-            <button>Faça um diagnóstico gratuito!</button>
-        </div>
-        <div>
-            <h2>ProJúnior</h2>
-            <div>
-                <button>Saiba mais</button>
-                <button>Contato</button>
-            </div>
-        </div>
-    </div>
-  )
-}
+  const { offset } = useOffset();
 
-export default Home
+  return (
+    <div id="home" className={`${style.home} view`}>
+          <img
+            src="src/assets/ACESSIBILIDADE → Button.png"
+            alt="Botão de acessibilidade"
+            className={style.accessibility}
+          />
+      <div className={style.slogan}>
+        <h1>
+          Evoluindo processos,
+          <br/> impactando resultados!
+        </h1>
+      
+        <h2>ProJúnior</h2>
+
+        <div className={style.buttons}>
+          <Link to="about" smooth={true} duration={500} offset={offset}>
+              <button className={style.btnLearnMore}>
+                Saiba mais
+              </button>
+          </Link>
+          <Link to="contact" smooth={true} duration={500} offset={offset}>
+            <button className={style.btnContact}>
+              Contato
+            </button>
+          </Link>
+        </div>
+      </div>
+
+      <div className={style.imgsProjr}>
+        <img
+          src="src/assets/PRO_PNJ-removebg-preview (2) 1.png"
+          alt="Logo da PROJR"
+          className={style.projrLogo}
+        />
+        <img
+          src="src/assets/LOGO_PRO_JR_PNG-removebg-preview 1.png"
+          alt="Símbolo de engrenagem com uma lâmpada no centro"
+        />
+      </div>
+    </div>
+  );
+};
+
+export default Home;

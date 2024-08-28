@@ -1,0 +1,52 @@
+.menu {
+  display: flex;
+  align-items: center;
+  top: 0;
+  position: fixed;
+  width: 100%;
+  background-color: #00026a;
+  height: 8.5vh;
+  overflow: hidden;
+  z-index: 1000;
+}
+
+.menu ul {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  list-style: none;
+  padding-left: 15%;
+}
+
+.menu li {
+  margin-left: 8%;
+  font-size: 14px;
+  color: #fff;
+  white-space: nowrap;
+}
+
+.menu li a {
+  color: #fff;
+}
+
+.logo {
+  height: 65px;
+  margin-top: 10%;
+}
+
+.btnDiagn {
+  background-color: #fe4e00;
+  border-radius: 50px;
+  padding: 11px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 900;
+  margin-left: auto; 
+  margin-right: 3%;
+  transition: background-color 0.4s;
+}
+
+.btnDiagn:hover {
+  background-color: #fe4e0099;
+} 
