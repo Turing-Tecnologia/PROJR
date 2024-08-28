@@ -36,6 +36,11 @@
     transform: translate(-50%, -50%);
     margin: 0;
     white-space: nowrap;
+    transition: transform .6s ease;
+  }
+
+  .icon:hover h2 {
+    margin-top: -55px;
   }
 
   .icon h2.large-title {
@@ -52,11 +57,11 @@
   }
 
   .icon p.short-description {
-    margin-top: 23%;
+    margin-top: 20%;
   }
 
   .icon p.medium-description {
-    margin-top: 15.5%;
+    margin-top: 14%;
   }
 
   .icon p.long-description {
