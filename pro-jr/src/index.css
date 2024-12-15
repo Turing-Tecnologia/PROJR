@@ -1,3 +1,8 @@
 .view {
-  height: 92vh;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
 }
