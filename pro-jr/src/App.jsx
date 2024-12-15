@@ -1,5 +1,7 @@
 import './App.css';
 
+import { OffsetProvider } from './context/OffsetContext';
+
 import About from './pages/About/About';
 import Contact from './pages/Contact/Contact';
 import Home from './pages/Home/Home';
