@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Tan Nimbus';
+    src: url('./fonts/TAN-NIMBUS.ttf');
+}
+@font-face {
+    font-family: 'Abril Fatface';
+    src: url('./fonts/AbrilFatface-Regular.ttf');
+}
+body {
+    font-family: 'Abril Fatface', serif;
+}
+.h1 {
+    color: #00026a;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    font-family: 'Tan Nimbus', serif;
+}
+.h2 {
+    font-size: 60px;
+    margin-bottom: -10px;
+    font-family: 'Tan Nimbus', serif;
+    display: block;
+    margin: auto;
+}
+.section_up {
+    background-color: #eaeaea;
+    display: block;
+    padding-top: 20vh;
+    padding-bottom: 30vh;
+}
+.img {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: -3%;
+    right: 10%;
+}
+.section {
+    position: relative;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+@media screen and (max-width: 899px) {
+    .impact {
+        display: grid;
+        grid-template-columns: repeat(1, 3fr);
+        gap: 25px;
+        margin: auto;
+        width: 80%;
+    }
+}
+@media screen and (min-width: 900px) {
+    .impact {
+        display: grid;
+        grid-template-columns: repeat(3, 3fr);
+        gap: 25px;
+        margin: auto;
+        width: 80%;
+    }
+}
+.impactBox {
+    background-color: #ffffff;
+    color: #00026a;
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.068);
+}
