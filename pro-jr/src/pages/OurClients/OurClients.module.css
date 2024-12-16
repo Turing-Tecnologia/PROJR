@@ -1,0 +1,29 @@
+.OurServicesBase {
+  background: #FFFFFF;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.OurServicesBase > h3 {
+  font-family: 'Abril Fatface';
+  text-align: center;
+  color: #00026A;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.OurServicesBaseImg {
+  display: grid;
+  grid-template-columns: repeat(5, 2fr);
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.OurServicesBaseImg > img {
+  width: 10rem;
+  margin: 1rem;
+}
