@@ -58,9 +58,11 @@
 
   .icon p.short-description {
     margin-top: 20%;
+    font-size: 18px;
   }
 
   .icon p.medium-description {
+    font-size: 16px;
     margin-top: 14%;
   }
 
