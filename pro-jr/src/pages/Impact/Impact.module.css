@@ -1,11 +1,27 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Tan Nimbus';
+    src: url('./fonts/TAN-NIMBUS.ttf');
+}
+@font-face {
+    font-family: 'Abril Fatface';
+    src: url('./fonts/AbrilFatface-Regular.ttf');
+}
+body {
+    font-family: 'Abril Fatface', serif;
+}
 .h1 {
     color: #00026a;
     text-align: center;
     margin-top: 50px;
     margin-bottom: 100px;
+    font-family: 'Tan Nimbus', serif;
 }
 .h2 {
+    font-size: 60px;
     margin-bottom: -10px;
+    font-family: 'Tan Nimbus', serif;
     display: block;
     margin: auto;
 }
